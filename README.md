@@ -1,7 +1,7 @@
 # Vleresimi-i-gjobave-te-leshuara-nga-ATK
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK/blob/main/LICENSE.txt)
 
-## Analiza e Gjobave të lëshuara nga Administratës Tatimore të Kosovës
+#### Analiza e Gjobave të lëshuara nga Administratës Tatimore të Kosovës
 
 ####  Dataset-i është marrë nga: [Administratës Tatimore të Kosovës](https://www.atk-ks.org/open-data/)
 
