@@ -19,38 +19,38 @@
 - NR_TATIM dhe NR_GJOBAVE: Numri i tatimeve dhe numri total i gjobave.
 - VLERA: Vlera totale e gjobave të marra.
 
-# Gjendja e dataset-it para: 
+#### Gjendja e dataset-it para: 
 ```
 Numri i rreshtave dhe kolonave para pastrimit
 (29707, 12)
 ```
 
-# Gjendja e dataset-it pas pastrimit: 
+#### Gjendja e dataset-it pas pastrimit: 
 ```
 Numri i rreshtave dhe kolonave pas pastrimit
 (29301, 11)
 ```
 
-# Përdorimi
+#### Përdorimi
 
 Për të përdorur këtë projekt në makinën tuaj lokale, bëni këto hapa:
 
-## Klononi repozitorin:
+#### Klononi repozitorin:
 
 ```
 git clone https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK.git
 ```
 
-# Shkoni në direktoriumin e projektit:
+#### Shkoni në direktoriumin e projektit:
 
 ```
 cd Vleresimi-i-gjobave-te-leshuara-nga-ATK
 ```
 
-# Instaloni librari të nevojshme të Python-it:
+#### Instaloni librari të nevojshme të Python-it:
 
 ```
 pip install -r requirements.txt
 ```
 
-# Hapni dhe ekzekutoni Jupyter Notebook (main.ipynb) për të parë analizën dhe vizualizimin e rezultateve.
+#### Hapni dhe ekzekutoni Jupyter Notebook (main.ipynb) për të parë analizën dhe vizualizimin e rezultateve.
