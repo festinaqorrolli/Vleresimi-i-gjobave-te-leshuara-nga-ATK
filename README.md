@@ -1,9 +1,9 @@
 # Vleresimi-i-gjobave-te-leshuara-nga-ATK
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK/blob/main/LICENSE.txt)
 
-#### Analiza e Gjobave të lëshuara nga Administratës Tatimore të Kosovës
+#### Analiza e Gjobave të lëshuara nga Administrata Tatimore e Kosovës
 
-####  Dataset-i është marrë nga: [Administratës Tatimore të Kosovës](https://www.atk-ks.org/open-data/)
+####  Dataset-i është marrë nga: [Administrata Tatimore e Kosovës](https://www.atk-ks.org/open-data/)
 
 ##### Ky repositor përmban të dhëna dhe skripte lidhur me analizën e gjobave të lëshuara nga Agjencia Tatimore e Kosovës (ATK). Projekti synon të eksplorojë dhe të paraqesë informacionin e detajuar rreth gjobave , duke përfshirë shumëllojshmërinë e tyre në disa aspekte:
 
