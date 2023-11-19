@@ -7,8 +7,8 @@
 
 ##### Ky repositor përmban të dhëna dhe skripte lidhur me analizën e gjobave të lëshuara nga Agjencia Tatimore e Kosovës (ATK). Projekti synon të eksplorojë dhe të paraqesë informacionin e detajuar rreth gjobave , duke përfshirë shumëllojshmërinë e tyre në disa aspekte:
 
-Përshkrimi i Dataset-it
-Dataset-i përmban informacione të detajuara mbi gjobat, duke përfshirë:
+#### Përshkrimi i Dataset-it
+##### Dataset-i përmban informacione të detajuara mbi gjobat, duke përfshirë:
 
 - VITI: Viti kur është dhënë gjoba.
 - MUAJI: Muaji kur është dhënë gjoba.
