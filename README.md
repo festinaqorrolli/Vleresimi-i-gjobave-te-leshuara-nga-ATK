@@ -7,14 +7,14 @@ Ky repositor përmban të dhëna dhe skripte lidhur me analizën e gjobave të l
 Përshkrimi i Dataset-it
 Dataset-i përmban informacione të detajuara mbi gjobat, duke përfshirë:
 
-VITI: Viti kur është dhënë gjoba.
-MUAJI: Muaji kur është dhënë gjoba.
-PERSHKRIMI_SEKTORIT: Përshkrimi i sektorit të cilës i takon kompania e gjobitur.
-LLOJI_KOMPAN: Lloji i kompanisë së gjobitur.
-KOMUNA: Komuna ku është dhënë gjoba.
-PEN_NO dhe PEN_TYPE_DESC_F: Id dhe neni për të cilin është dënuar.
-NR_TATIM dhe NR_GJOBAVE: Numri i tatimeve dhe numri total i gjobave.
-VLERA: Vlera totale e gjobave të marra.
+- VITI: Viti kur është dhënë gjoba.
+- MUAJI: Muaji kur është dhënë gjoba.
+- PERSHKRIMI_SEKTORIT: Përshkrimi i sektorit të cilës i takon kompania e gjobitur.
+- LLOJI_KOMPAN: Lloji i kompanisë së gjobitur.
+- KOMUNA: Komuna ku është dhënë gjoba.
+- PEN_NO dhe PEN_TYPE_DESC_F: Id dhe neni për të cilin është dënuar.
+- NR_TATIM dhe NR_GJOBAVE: Numri i tatimeve dhe numri total i gjobave.
+- VLERA: Vlera totale e gjobave të marra.
 
 Përdorimi
 Për të përdorur këtë projekt në makinën tuaj lokale, bëni këto hapa:
