@@ -1,8 +1,11 @@
 # Vleresimi-i-gjobave-te-leshuara-nga-ATK
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK/blob/main/LICENSE.txt)
 
-Analiza e Gjobave të lëshuara nga Agjencia Tatimore e Kosovës
-Ky repositor përmban të dhëna dhe skripte lidhur me analizën e gjobave të lëshuara nga Agjencia Tatimore e Kosovës (ATK). Projekti synon të eksplorojë dhe të paraqesë informacionin e detajuar rreth gjobave , duke përfshirë shumëllojshmërinë e tyre në disa aspekte:
+## Analiza e Gjobave të lëshuara nga Administratës Tatimore të Kosovës
+
+## Dataset-i është marrë nga: [Administratës Tatimore të Kosovës](https://www.atk-ks.org/open-data/)
+
+### Ky repositor përmban të dhëna dhe skripte lidhur me analizën e gjobave të lëshuara nga Agjencia Tatimore e Kosovës (ATK). Projekti synon të eksplorojë dhe të paraqesë informacionin e detajuar rreth gjobave , duke përfshirë shumëllojshmërinë e tyre në disa aspekte:
 
 Përshkrimi i Dataset-it
 Dataset-i përmban informacione të detajuara mbi gjobat, duke përfshirë:
@@ -16,19 +19,38 @@ Dataset-i përmban informacione të detajuara mbi gjobat, duke përfshirë:
 - NR_TATIM dhe NR_GJOBAVE: Numri i tatimeve dhe numri total i gjobave.
 - VLERA: Vlera totale e gjobave të marra.
 
-Përdorimi
+# Gjendja e dataset-it para: 
+```
+Numri i rreshtave dhe kolonave para pastrimit
+(29707, 12)
+```
+
+# Gjendja e dataset-it pas pastrimit: 
+```
+Numri i rreshtave dhe kolonave pas pastrimit
+(29301, 11)
+```
+
+# Përdorimi
+
 Për të përdorur këtë projekt në makinën tuaj lokale, bëni këto hapa:
 
-Klononi repozitorin:
+## Klononi repozitorin:
 
+```
 git clone https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK.git
+```
 
-Shkoni në direktoriumin e projektit:
+# Shkoni në direktoriumin e projektit:
 
+```
 cd Vleresimi-i-gjobave-te-leshuara-nga-ATK
+```
 
-Instaloni librari të nevojshme të Python-it:
+# Instaloni librari të nevojshme të Python-it:
 
+```
 pip install -r requirements.txt
+```
 
-Hapni dhe ekzekutoni Jupyter Notebook (main.ipynb) për të parë analizën dhe vizualizimin e rezultateve.
+# Hapni dhe ekzekutoni Jupyter Notebook (main.ipynb) për të parë analizën dhe vizualizimin e rezultateve.
