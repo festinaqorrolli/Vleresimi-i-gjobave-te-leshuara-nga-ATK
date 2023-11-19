@@ -3,9 +3,9 @@
 
 ## Analiza e Gjobave të lëshuara nga Administratës Tatimore të Kosovës
 
-## Dataset-i është marrë nga: [Administratës Tatimore të Kosovës](https://www.atk-ks.org/open-data/)
+####  Dataset-i është marrë nga: [Administratës Tatimore të Kosovës](https://www.atk-ks.org/open-data/)
 
-### Ky repositor përmban të dhëna dhe skripte lidhur me analizën e gjobave të lëshuara nga Agjencia Tatimore e Kosovës (ATK). Projekti synon të eksplorojë dhe të paraqesë informacionin e detajuar rreth gjobave , duke përfshirë shumëllojshmërinë e tyre në disa aspekte:
+##### Ky repositor përmban të dhëna dhe skripte lidhur me analizën e gjobave të lëshuara nga Agjencia Tatimore e Kosovës (ATK). Projekti synon të eksplorojë dhe të paraqesë informacionin e detajuar rreth gjobave , duke përfshirë shumëllojshmërinë e tyre në disa aspekte:
 
 Përshkrimi i Dataset-it
 Dataset-i përmban informacione të detajuara mbi gjobat, duke përfshirë:
