@@ -1,14 +1,20 @@
-# Vleresimi-i-gjobave-te-leshuara-nga-ATK
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK/blob/main/LICENSE.txt)
 
-#### Analiza e Gjobave të lëshuara nga Administrata Tatimore e Kosovës
+# Vleresimi i gjobave te leshuara nga ATK
 
-####  Dataset-i është marrë nga: [Administrata Tatimore e Kosovës](https://www.atk-ks.org/open-data/)
+## Hyrje
+Ky repozitor është përmbledhje e kodit Python për përpunimin dhe analizimin e një dataseti lidhur me gjobat e lëshuara nga [Administrata Tatimore e Kosovës](https://www.atk-ks.org/open-data/). Kodi fokusohet në pastrimin e të dhënave, analizën statistikore dhe vizualizimin, duke ofruar një pasqyrë të tendencave dhe modeleve në të dhëna.
 
-##### Ky repositor përmban të dhëna dhe skripte lidhur me analizën e gjobave të lëshuara nga Agjencia Tatimore e Kosovës (ATK). Projekti synon të eksplorojë dhe të paraqesë informacionin e detajuar rreth gjobave , duke përfshirë shumëllojshmërinë e tyre në disa aspekte:
+## Librari të Përdorura
+- **Pandas**: Për manipulimin dhe analizën e të dhënave.
+- **Scikit-learn (PCA)**: Për reduktimin e dimensionalitetit përmes Analizës së Komponentit Kryesor.
+- **Matplotlib.pyplot & Seaborn**: Për vizualizimin e të dhënave.
+- **Numpy & Scipy**: Për llogaritje numerike dhe funksione statistikore.
 
-#### Përshkrimi i Dataset-it
-##### Dataset-i përmban informacione të detajuara mbi gjobat, duke përfshirë:
+## Dataseti
+Dataseti, `gjobat-e-leshuara.csv`, përmban informacione të detajuara rreth ndryshme gjobave dhe penaliteteve të vendosura.
+
+## Përshkrimi i Dataset-it
+Dataset-i përmban informacione të detajuara mbi gjobat, duke përfshirë:
 
 - VITI: Viti kur është dhënë gjoba.
 - MUAJI: Muaji kur është dhënë gjoba.
@@ -19,38 +25,46 @@
 - NR_TATIM dhe NR_GJOBAVE: Numri i tatimeve dhe numri total i gjobave.
 - VLERA: Vlera totale e gjobave të marra.
 
-#### Gjendja e dataset-it para: 
+## Gjendja e dataset-it para: 
 ```
 Numri i rreshtave dhe kolonave para pastrimit
 (29707, 12)
 ```
 
-#### Gjendja e dataset-it pas pastrimit: 
+## Gjendja e dataset-it pas pastrimit: 
 ```
 Numri i rreshtave dhe kolonave pas pastrimit
 (29301, 11)
 ```
 
-#### Përdorimi
+## Karakteristikat
+Skripti përfshin disa operacione kyçe për menaxhimin e të dhënave:
+- **Leximi i të Dhënave**: Lexon datasetin përmes Pandas.
+- **Përpunimi**: Përfshin kontrollin për vlera që mungojnë, riemërimin e kolonave dhe integrimin e të dhënave.
+- **Pastrimi i të Dhënave**: Standardizon vlerat e kolonave, heq regjistrimet e dyfishta dhe menaxhon outliers.
+- **Binarizimi**: Binarizon një kolonë bazuar në vlerën mesatare të saj.
+- **Zgjedhja e Nënëngrupeve**: Verifikon unicitetin e asocimeve midis kolonave të caktuara.
+- **Paraqitja e të Dhënave**: Krahasimi i dataseteve fillestare dhe të përpunuara.
+- **Zbulimi dhe Pastrimi i Outliers**: Vizualizon dhe pastron të dhënat nga outliers.
+- **Zbulimi i Anomalive**: Kontrollon dhe heq anomali në kolona të ndryshme.
+- **Parandalimi i Zbulimeve të Pasakta**: Kryen analiza për të shmangur interpretimet e gabuara.
+- **Analiza Eksploruese e të Dhënave**: Ofron statistika përshkruese dhe vizualizime.
+- **Trajtimi i Shtrembërimit**: Analizon dhe vizualizon shtrembërimin e variablave të zgjedhura.
 
-Për të përdorur këtë projekt në makinën tuaj lokale, bëni këto hapa:
+## Përdorimi
+Skripti është ndarë në seksione, secila e shënuar me `#%%`, për pjesë të ndryshme të procesit të analizës së të dhënave. Përdoruesit mund të ekzekutojnë gjithë skriptin për një analizë nga fillimi në fund ose të ekzekutojnë seksione të veçanta sipas nevojave.
 
-#### Klononi repozitorin:
+## Instalimi
+Para se të ekzekutoni skriptin, sigurohuni që të gjitha librariat e nevojshme janë të instaluar. Mund ti instaloni ato duke përdorur pip:
 
+```bash
+pip install pandas scikit-learn matplotlib seaborn numpy scipy
 ```
-git clone https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK.git
-```
 
-#### Shkoni në direktoriumin e projektit:
+Sigurohuni që skedari i datasetit `gjobat-e-leshuara.csv` është i disponueshëm në direktorinë e saktë.
 
-```
-cd Vleresimi-i-gjobave-te-leshuara-nga-ATK
-```
+## Kontributet
+Kontributet në këtë projekt janë të mirëpritura. Ju lutemi hapni një çështje së pari për të diskutuar se çfarë dëshironi të ndryshoni ose shtoni.
 
-#### Instaloni librari të nevojshme të Python-it:
-
-```
-pip install -r requirements.txt
-```
-
-#### Hapni dhe ekzekutoni Jupyter Notebook (main.ipynb) për të parë analizën dhe vizualizimin e rezultateve.
+## Liçensa
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK/blob/main/LICENSE.txt)
