@@ -1,5 +1,6 @@
 
 # Vleresimi i gjobave te leshuara nga ATK
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK/blob/main/LICENSE.txt)
 
 ## Hyrje
 Ky repozitor është përmbledhje e kodit Python për përpunimin dhe analizimin e një dataseti lidhur me gjobat e lëshuara nga [Administrata Tatimore e Kosovës](https://www.atk-ks.org/open-data/). Kodi fokusohet në pastrimin e të dhënave, analizën statistikore dhe vizualizimin, duke ofruar një pasqyrë të tendencave dhe modeleve në të dhëna.
@@ -64,7 +65,7 @@ pip install pandas scikit-learn matplotlib seaborn numpy scipy
 Sigurohuni që skedari i datasetit `gjobat-e-leshuara.csv` është i disponueshëm në direktorinë e saktë.
 
 ## Kontributet
-Kontributet në këtë projekt janë të mirëpritura. Ju lutemi hapni një çështje së pari për të diskutuar se çfarë dëshironi të ndryshoni ose shtoni.
+Kontributet në këtë projekt janë të mirëpritura.
 
 ## Licensa
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK/blob/main/LICENSE.txt)
