@@ -66,5 +66,5 @@ Sigurohuni që skedari i datasetit `gjobat-e-leshuara.csv` është i disponuesh�
 ## Kontributet
 Kontributet në këtë projekt janë të mirëpritura. Ju lutemi hapni një çështje së pari për të diskutuar se çfarë dëshironi të ndryshoni ose shtoni.
 
-## Liçensa
+## Licensa
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/festinaqorrolli/Vleresimi-i-gjobave-te-leshuara-nga-ATK/blob/main/LICENSE.txt)
