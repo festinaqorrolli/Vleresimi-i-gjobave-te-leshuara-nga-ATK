@@ -51,6 +51,9 @@ Skripti përfshin disa operacione kyçe për menaxhimin e të dhënave:
 - **Parandalimi i Zbulimeve të Pasakta**: Kryen analiza për të shmangur interpretimet e gabuara.
 - **Analiza Eksploruese e të Dhënave**: Ofron statistika përshkruese dhe vizualizime.
 - **Trajtimi i Shtrembërimit**: Analizon dhe vizualizon shtrembërimin e variablave të zgjedhura.
+- **Vizualizimi sipas tipeve të dhënave** 
+- **Vizualizimi statik dhe ineraktiv**
+- **Vizualizimi i të dhënave shumë dimensionale**
 
 ## Përdorimi
 Skripti është ndarë në seksione, secila e shënuar me `#%%`, për pjesë të ndryshme të procesit të analizës së të dhënave. Përdoruesit mund të ekzekutojnë gjithë skriptin për një analizë nga fillimi në fund ose të ekzekutojnë seksione të veçanta sipas nevojave.
