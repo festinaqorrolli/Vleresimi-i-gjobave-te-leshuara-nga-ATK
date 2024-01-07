@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d020b16d-751c-47e5-8b7a-66429cbb74fc" name="Changes" comment="adresimi i shtemberimit te te dhenave dhe rregullimi i  errorave">
+    <list default="true" id="d020b16d-751c-47e5-8b7a-66429cbb74fc" name="Changes" comment="Faza 3 update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-preprocessing/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data-preprocessing/main.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,18 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704216513149</updated>
       <workItem from="1704216524832" duration="1089000" />
-      <workItem from="1704533622178" duration="25279000" />
+      <workItem from="1704533622178" duration="26777000" />
     </task>
     <task id="LOCAL-00001" summary="adresimi i shtemberimit te te dhenave dhe rregullimi i  errorave">
       <option name="closed" value="true" />
@@ -65,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704217528130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Faza 3 update.">
+      <option name="closed" value="true" />
+      <created>1704666390847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704666390847</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,7 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adresimi i shtemberimit te te dhenave dhe rregullimi i  errorave" />
-    <option name="LAST_COMMIT_MESSAGE" value="adresimi i shtemberimit te te dhenave dhe rregullimi i  errorave" />
+    <MESSAGE value="Faza 3 update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Faza 3 update." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Vleresimi_i_gjobave_te_leshuara_nga_ATK$app.coverage" NAME="app Coverage Results" MODIFIED="1704653892891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
